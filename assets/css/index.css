@@ -1,0 +1,51 @@
+body{
+  background-color: black;
+  color: white;
+}
+
+a{
+  color: #fa713e;
+  text-decoration: none;
+  transition: all.6s ease;
+  -ms-transition: all.6s ease;
+  -o-transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+
+a:hover{
+  color: #c34f25;
+  text-decoration: none;
+  transition: all.6s ease;
+  -ms-transition: all.6s ease;
+  -o-transition: all.6s ease;
+  -moz-transition: all.6s ease;
+  -webkit-transition: all.6s ease;
+}
+
+#main{
+  display: inline-block;
+}
+
+.profile_pic {
+  margin-right: 20px;
+  float:left;
+  width: 15%;
+  height: 15%;
+}
+
+
+#courses_block{
+    margin-top: 100px;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
+
+}
+
+#courses_block a {
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#courses_block img {border: 0; width: 40%; height: 40%}
