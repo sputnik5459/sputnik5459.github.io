@@ -1,0 +1,37 @@
+body {
+}
+
+#wrapper {
+	max-width: 960px;
+	margin: auto;
+}
+
+#carousel ul {
+	display: flex; margin: 0; padding: 0; overflow: hidden;
+}
+
+#carousel li {
+	display: block; list-style: none;
+}
+
+#carousel button.prev, button.next {
+	display: flex; font-size: 32px;
+	align-items: center; justify-content: center;
+	color: #FFF; background-color: #333;
+	border-radius: 50%;
+	width: 44px; height: 44px;
+}
+
+#carousel button.prev {
+	position: absolute; left: 0; top: 80px;
+}
+
+#carousel button.next {
+	position: absolute; right: 0; top: 80px;
+
+}
+
+#carousel img {
+	width: 952px;
+	height: 550px;
+}
